@@ -20,15 +20,15 @@ export default defineNuxtConfig({
         file: "es-ES.json",
       },
       {
-        code: "in-HI",
-        iso: "en-HI",
-        name: "हिंदी",
-        file: "in-HI.json",
+        code: "it-IT",
+        iso: "it-IT",
+        name: "Italian",
+        file: "it-IT.json",
       },
     ],
-    defaultLocale: "en-US",
+    defaultLocale: "it-IT",
     vueI18n: {
-      fallbackLocale: "en-US",
+      fallbackLocale: "it-IT",
     },
   },
 });
